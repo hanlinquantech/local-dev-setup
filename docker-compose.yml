@@ -182,3 +182,12 @@ services:
       - ${DATA_PATH_HOST}/jenkin/data:/var/jenkins_home
     ports:
       - "${JENKINS_PORT}:8080"
+
+  structurizr:
+    image: structurizr/lite:latest
+    container_name: local-structurizr
+    restart: always
+    ports:
+      - "${STRUCTURIZR_PORT}:8080"
+    volumes:
+      - ./structurizr:/usr/local/structurizr
