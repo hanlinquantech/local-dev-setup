@@ -1,77 +1,666 @@
 {
   "id" : 1,
-  "name" : "Name",
+  "name" : "Quantech",
   "description" : "Description",
-  "lastModifiedDate" : "2024-01-08T07:19:49Z",
+  "lastModifiedDate" : "2024-01-10T05:21:31Z",
   "lastModifiedAgent" : "structurizr-javascript",
   "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgdXNlciA9IHBlcnNvbiAiVXNlciIKICAgICAgICBzb2Z0d2FyZVN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJTb2Z0d2FyZSBTeXN0ZW0iCgogICAgICAgIHVzZXIgLT4gc29mdHdhcmVTeXN0ZW0gIlVzZXMiCiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgc29mdHdhcmVTeXN0ZW0gIkRpYWdyYW0xIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KICAgIH0KCiAgICBjb25maWd1cmF0aW9uIHsKICAgICAgICBzY29wZSBzb2Z0d2FyZXN5c3RlbQogICAgfQoKfQo="
+    "structurizr.dsl" : "d29ya3NwYWNlICJRdWFudGVjaCIgIkRlc2NyaXB0aW9uIiB7CiAgICBtb2RlbCB7CiAgICAgICAgY3VzdG9tZXIgPSBwZXJzb24gIkN1c3RvbWVyIgogICAgICAgIGFkbWluID0gcGVyc29uICJBZG1pbiIKICAgICAgICAKICAgICAgICB2MiA9IHNvZnR3YXJlU3lzdGVtICJWMiBDbGllbnQgV2ViYXBwIiB7CiAgICAgICAgICAgIHYyYmUgPSBjb250YWluZXIgIlYyLUJFIiB7CiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiMS4gQXV0aGVudGljYXRpb25cbiAyLiBDdXN0b21lcnNcbiAzLiBUcmFuc2FjdGlvblxuIDQuIEhvdG1hdGNoXG4gNS4gQ1JVRFxuIDYuIEpvYnMvV29yZGVyKEludm9pY2UgSGFuZGxlciwgSW52b2ljZSBWYWxpZGF0aW9uKSIKICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgIHYyZmUgPSBjb250YWluZXIgIlYyLUZFIiB7CiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiMS4gQXV0aGVudGljYXRpb25cbiAyLiBVc2VyXG4gMy4gVHJhbnNhY3Rpb25cbiA0LiBIb3RtYXRjaFxuIDUuIENNUyhuZXdzKSIKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgZ3cgPSBjb250YWluZXIgIkdhdGV3YXkiCiAgICAgICAgICAgIAogICAgICAgICAgICB2MndwID0gY29udGFpbmVyICJWMi1Xb3JkcHJlc3MiIHsKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJDTVMobmV3cywgYmFubmVyLCBob3RtYXRjaCkiCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgCiAgICAgICAgYm8gPSBzb2Z0d2FyZVN5c3RlbSAiQk8gQnVzaW5lc3MgT3BlcmF0aW9uIFdlYmFwcCIgewogICAgICAgICAgICB0YWdzICJCTyIKICAgICAgICAgICAgYm9iZSA9IGNvbnRhaW5lciAiQk8tQkUiIHsKICAgICAgICAgICAgICAgIHRhZ3MgIkxvbmdEZXNjIgogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIjEuIExvZyBpbiBhbmQgUGVybWlzc2lvblxuIDIuIFJlZnJlc2ggVG9rZW5cbiAzLiBBZG1pbiBNYW5hZ2VtZW50XG4gNC4gVHJhZGVyIE1hbmFnZW1lbnRcbiA1LiBCZXR0aW5nIEFjY291bnQgTWFuYWdlbWVudFxuIDYuIFB1cmNoYXNlIGFuZCBTZWxsaW5nIFRpY2tldHNcbiA3LiBUcmFuc2FjdGlvbiBIaXN0b3J5XG4gOC4gTW9uZXkvUG9pbnQgVHJhbnNmZXIoc2FtZSB0cmFkZXIvZGlmZmVyZW50IHRyYWRlcilcbiA5LiBDb21taXNzaW9uIGltcG9ydCBhbmQgZGlzdHJpYnV0aW9uIChFeGNlbClcbiAxMC4gU3lzdGVtIExvZyhUcmFuc2FjdGlvbiBBY3Rpb24pXG4gMTEuIEFuYWx5dGljIFJlcG9ydChUcmFuc2FjdGlvbiwgVHJhZGVyLCBCZXQpXG4gMTIuIFVzZXIgUmVnaXN0cmF0aW9uIFJlcG9ydChNb2JpbGUvRGVza3RvcCkiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGJvZmUgPSBjb250YWluZXIgIkJPLUZFIiB7CiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiMS4gU2lnbiBJblxuIDIuIEFsbCBSZWxhdGVkIG1vZHVsZXModmlhIEFQSSlcbiAzLiBGaWxlIFVwbG9hZGluZyhFeGNlbCBTaGVldClcbiA0LiBSb3V0ZSBHdWFyZHMgd2l0aCByb2xlIGFuZCBwZXJtaXNzaW9ucyIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAKICAgICAgICB0aGlyZFBhcnR5UGF5bWVudEdhdGV3YXkgPSBzb2Z0d2FyZVN5c3RlbSAiVGhpcmQgcGFydHkgUGF5bWVudCBHYXRld2F5IiB7CiAgICAgICAgICAgIHRoaXJkcGFydHkgPSBjb250YWluZXIgIlRoaXJkIFBhcnR5IFNlcnZpY2VzIiB7CiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiMS4gUGF5bWVudCBjaGVja2luZyh2aWEgd2ViaG9vaylcbiAyLiBUcmFuc2FjdGlvbiwgQmFuayIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAKICAgICAgICBhZG1pbiAtPiBibwogICAgICAgIGN1c3RvbWVyIC0+IHYyCiAgICAgICAgdjIgLT4gYm8gInByb2R1Y2UgdmlhIFJhYmJpdE1RIgogICAgICAgIHRoaXJkUGFydHlQYXltZW50R2F0ZXdheSAtPiBibyAidmlhIHdlYmhvb2siCiAgICAgICAgCiAgICAgICAgbW9uZ28gPSBlbGVtZW50ICJNb25nb0RCIiB7CiAgICAgICAgICAgIHRhZ3MgIkRhdGFiYXNlIgogICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgZXMgPSBlbGVtZW50ICJFbGFzdGljc2VhcmNoIiB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uICJEYXRhIGZyb20gTW9uZ29EQiIKICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgIG1xID0gZWxlbWVudCAiUmFiYml0TVEiCiAgICAgICAgCiAgICAgICAgYm9mZSAtPiBib2JlCiAgICAgICAgYm9iZSAtPiBtb25nbwogICAgICAgIG1vbmdvIC0+IGJvYmUKICAgICAgICAKICAgICAgICB2MmJlIC0+IG1xICJwcm9kdWNlIgogICAgICAgIG1xIC0+IGJvYmUgImNvbnN1bWUiCiAgICAgICAgICAgIAogICAgICAgIHYyZmUgLT4gZ3cKICAgICAgICBndyAtPiB2MmZlCiAgICAgICAgZ3cgLT4gdjJiZQogICAgICAgIHYyYmUgLT4gZ3cKICAgICAgICAgICAgCiAgICAgICAgdjJiZSAtPiBtb25nbwogICAgICAgIG1vbmdvIC0+IHYyYmUKICAgICAgICAgICAgCiAgICAgICAgYm9iZSAtPiBlcyAiQ29uc3VtZSBSYWJiaXRNUSBhbmQgQ1VEIGFjdGlvbiBoYXZlIGJlZW4gcHVzaGVkIHRvIEVsYXN0aWNzZWFyY2ggdmlhIEFQSSIKICAgICAgICBlcyAtPiBib2JlCiAgICAgICAgICAgIAogICAgICAgIHRoaXJkcGFydHkgLT4gYm9iZQogICAgICAgIHRoaXJkcGFydHkgLT4gdjJiZQogICAgICAgICAgICAKICAgICAgICB2MndwIC0+IHYyYmUKICAgIH0KICAgIAogICAgdmlld3MgewogICAgICAgIHN5c3RlbWxhbmRzY2FwZSAiU3lzdGVtTGFuZHNjYXBlIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQogICAgCiAgICAgICAgc3lzdGVtQ29udGV4dCBibyB7CiAgICAgICAgICAgIGluY2x1ZGUgdjIKICAgICAgICAgICAgaW5jbHVkZSB0aGlyZFBhcnR5UGF5bWVudEdhdGV3YXkKICAgICAgICAgICAgaW5jbHVkZSBhZG1pbgogICAgICAgICAgICBpbmNsdWRlIGN1c3RvbWVyCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CiAgICAKICAgICAgICBjb250YWluZXIgYm8gewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KICAgICAgICAKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgc2hhcGUgY3lsaW5kZXIKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgR3JlZW4KICAgICAgICAgICAgICAgIGNvbG9yIHdoaXRlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGVsZW1lbnQgIkxvbmdEZXNjIiB7CiAgICAgICAgICAgICAgICBoZWlnaHQgNjAwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGVsZW1lbnQgIlBlcnNvbiIgewogICAgICAgICAgICAgICAgc2hhcGUgcGVyc29uCiAgICAgICAgICAgICAgICBjb2xvciBXaGl0ZQogICAgICAgICAgICAgICAgYmFja2dyb3VuZCBCbHVlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGVsZW1lbnQgIkJPIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kIFJlZAogICAgICAgICAgICAgICAgY29sb3IgV2hpdGUKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo="
   },
-  "configuration" : {
-    "scope" : "SoftwareSystem"
-  },
+  "configuration" : { },
   "model" : {
     "people" : [ {
+      "id" : "2",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "admin"
+      },
+      "name" : "Admin",
+      "relationships" : [ {
+        "id" : "13",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "862d9a22-548d-44d8-8b9c-1ef2863b5afc"
+        },
+        "sourceId" : "2",
+        "destinationId" : "8"
+      } ],
+      "location" : "Unspecified"
+    }, {
       "id" : "1",
       "tags" : "Element,Person",
       "properties" : {
-        "structurizr.dsl.identifier" : "user"
+        "structurizr.dsl.identifier" : "customer"
       },
-      "name" : "User",
+      "name" : "Customer",
       "relationships" : [ {
-        "id" : "3",
+        "id" : "14",
         "tags" : "Relationship",
         "properties" : {
-          "structurizr.dsl.identifier" : "5f79eeaa-aa57-4fc7-865a-aeae41d94a4e"
+          "structurizr.dsl.identifier" : "369f98b8-6167-4f1c-9998-8425b5aa6581"
         },
         "sourceId" : "1",
-        "destinationId" : "2",
-        "description" : "Uses"
+        "destinationId" : "3"
       } ],
       "location" : "Unspecified"
     } ],
     "softwareSystems" : [ {
-      "id" : "2",
+      "id" : "8",
+      "tags" : "Element,Software System,BO",
+      "properties" : {
+        "structurizr.dsl.identifier" : "bo"
+      },
+      "name" : "BO Business Operation Webapp",
+      "relationships" : [ {
+        "id" : "38",
+        "sourceId" : "8",
+        "destinationId" : "18",
+        "description" : "Consume RabbitMQ and CUD action have been pushed to Elasticsearch via API",
+        "linkedRelationshipId" : "37"
+      }, {
+        "id" : "22",
+        "sourceId" : "8",
+        "destinationId" : "17",
+        "linkedRelationshipId" : "21"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "9",
+        "tags" : "Element,Container,LongDesc",
+        "properties" : {
+          "structurizr.dsl.identifier" : "bobe"
+        },
+        "name" : "BO-BE",
+        "description" : "1. Log in and Permission\n 2. Refresh Token\n 3. Admin Management\n 4. Trader Management\n 5. Betting Account Management\n 6. Purchase and Selling Tickets\n 7. Transaction History\n 8. Money/Point Transfer(same trader/different trader)\n 9. Commission import and distribution (Excel)\n 10. System Log(Transaction Action)\n 11. Analytic Report(Transaction, Trader, Bet)\n 12. User Registration Report(Mobile/Desktop)",
+        "relationships" : [ {
+          "id" : "21",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "4add3c98-2aa3-44cd-973e-ef24080cea5a"
+          },
+          "sourceId" : "9",
+          "destinationId" : "17"
+        }, {
+          "id" : "37",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "ce3844a7-9c9b-4589-b0c9-a00add3f2f74"
+          },
+          "sourceId" : "9",
+          "destinationId" : "18",
+          "description" : "Consume RabbitMQ and CUD action have been pushed to Elasticsearch via API"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "bofe"
+        },
+        "name" : "BO-FE",
+        "description" : "1. Sign In\n 2. All Related modules(via API)\n 3. File Uploading(Excel Sheet)\n 4. Route Guards with role and permissions",
+        "relationships" : [ {
+          "id" : "20",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "5d68d3a5-c15b-4591-b39a-d1494a6b0807"
+          },
+          "sourceId" : "10",
+          "destinationId" : "9"
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "3",
       "tags" : "Element,Software System",
       "properties" : {
-        "structurizr.dsl.identifier" : "softwaresystem"
+        "structurizr.dsl.identifier" : "v2"
       },
-      "name" : "Software System",
+      "name" : "V2 Client Webapp",
+      "relationships" : [ {
+        "id" : "15",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "3db74ebe-f5be-434f-9039-0770a15c5384"
+        },
+        "sourceId" : "3",
+        "destinationId" : "8",
+        "description" : "produce via RabbitMQ"
+      }, {
+        "id" : "26",
+        "sourceId" : "3",
+        "destinationId" : "19",
+        "description" : "produce",
+        "linkedRelationshipId" : "25"
+      }, {
+        "id" : "34",
+        "sourceId" : "3",
+        "destinationId" : "17",
+        "linkedRelationshipId" : "33"
+      } ],
       "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "5",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "v2fe"
+        },
+        "name" : "V2-FE",
+        "description" : "1. Authentication\n 2. User\n 3. Transaction\n 4. Hotmatch\n 5. CMS(news)",
+        "relationships" : [ {
+          "id" : "29",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "74af36d9-4e96-47a0-914a-3bf9746349c1"
+          },
+          "sourceId" : "5",
+          "destinationId" : "6"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "v2be"
+        },
+        "name" : "V2-BE",
+        "description" : "1. Authentication\n 2. Customers\n 3. Transaction\n 4. Hotmatch\n 5. CRUD\n 6. Jobs/Worder(Invoice Handler, Invoice Validation)",
+        "relationships" : [ {
+          "id" : "32",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "0edeb06b-1f5f-46b7-959e-91089e8fd3a8"
+          },
+          "sourceId" : "4",
+          "destinationId" : "6"
+        }, {
+          "id" : "33",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "47167c41-dc63-4834-8778-e7333ffb9e68"
+          },
+          "sourceId" : "4",
+          "destinationId" : "17"
+        }, {
+          "id" : "25",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "887790fa-ba5b-4f7c-a2ed-20a1edc309a8"
+          },
+          "sourceId" : "4",
+          "destinationId" : "19",
+          "description" : "produce"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "gw"
+        },
+        "name" : "Gateway",
+        "relationships" : [ {
+          "id" : "30",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "f65d9d7c-968f-4b70-8345-e4c310fdb3d8"
+          },
+          "sourceId" : "6",
+          "destinationId" : "5"
+        }, {
+          "id" : "31",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "bdd3d015-f2b4-4f9f-be74-b6228e245931"
+          },
+          "sourceId" : "6",
+          "destinationId" : "4"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "7",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "v2wp"
+        },
+        "name" : "V2-Wordpress",
+        "description" : "CMS(news, banner, hotmatch)",
+        "relationships" : [ {
+          "id" : "48",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "330e3914-053f-4168-9a8d-ce52ca67d2b8"
+          },
+          "sourceId" : "7",
+          "destinationId" : "4"
+        } ],
+        "documentation" : { }
+      } ],
       "documentation" : { }
+    }, {
+      "id" : "11",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "thirdpartypaymentgateway"
+      },
+      "name" : "Third party Payment Gateway",
+      "relationships" : [ {
+        "id" : "47",
+        "sourceId" : "11",
+        "destinationId" : "3",
+        "linkedRelationshipId" : "44"
+      }, {
+        "id" : "16",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "0920076b-492d-4e7a-8c3d-58e12a489390"
+        },
+        "sourceId" : "11",
+        "destinationId" : "8",
+        "description" : "via webhook"
+      }, {
+        "id" : "43",
+        "sourceId" : "11",
+        "destinationId" : "9",
+        "linkedRelationshipId" : "41"
+      }, {
+        "id" : "46",
+        "sourceId" : "11",
+        "destinationId" : "4",
+        "linkedRelationshipId" : "44"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "12",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "thirdparty"
+        },
+        "name" : "Third Party Services",
+        "description" : "1. Payment checking(via webhook)\n 2. Transaction, Bank",
+        "relationships" : [ {
+          "id" : "45",
+          "sourceId" : "12",
+          "destinationId" : "3",
+          "linkedRelationshipId" : "44"
+        }, {
+          "id" : "41",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "55b5f1f6-74e6-4c19-85e3-21be1aa1f098"
+          },
+          "sourceId" : "12",
+          "destinationId" : "9"
+        }, {
+          "id" : "42",
+          "sourceId" : "12",
+          "destinationId" : "8",
+          "linkedRelationshipId" : "41"
+        }, {
+          "id" : "44",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "35889944-562f-48bf-9bcd-3fa7da0b6deb"
+          },
+          "sourceId" : "12",
+          "destinationId" : "4"
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ],
+    "customElements" : [ {
+      "id" : "18",
+      "tags" : "Element",
+      "properties" : {
+        "structurizr.dsl.identifier" : "es"
+      },
+      "name" : "Elasticsearch",
+      "description" : "Data from MongoDB",
+      "relationships" : [ {
+        "id" : "40",
+        "sourceId" : "18",
+        "destinationId" : "8",
+        "linkedRelationshipId" : "39"
+      }, {
+        "id" : "39",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "3fbc1e79-f4ec-4599-b39d-9cd119ff6c2d"
+        },
+        "sourceId" : "18",
+        "destinationId" : "9"
+      } ]
+    }, {
+      "id" : "17",
+      "tags" : "Element,Database",
+      "properties" : {
+        "structurizr.dsl.identifier" : "mongo"
+      },
+      "name" : "MongoDB",
+      "relationships" : [ {
+        "id" : "24",
+        "sourceId" : "17",
+        "destinationId" : "8",
+        "linkedRelationshipId" : "23"
+      }, {
+        "id" : "23",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "3c74d466-e9ce-46f3-bd58-20645aa5a44d"
+        },
+        "sourceId" : "17",
+        "destinationId" : "9"
+      }, {
+        "id" : "36",
+        "sourceId" : "17",
+        "destinationId" : "3",
+        "linkedRelationshipId" : "35"
+      }, {
+        "id" : "35",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "2a0b96d5-aea3-4f01-a999-0f24f971739f"
+        },
+        "sourceId" : "17",
+        "destinationId" : "4"
+      } ]
+    }, {
+      "id" : "19",
+      "tags" : "Element",
+      "properties" : {
+        "structurizr.dsl.identifier" : "mq"
+      },
+      "name" : "RabbitMQ",
+      "relationships" : [ {
+        "id" : "28",
+        "sourceId" : "19",
+        "destinationId" : "8",
+        "description" : "consume",
+        "linkedRelationshipId" : "27"
+      }, {
+        "id" : "27",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "9333f657-e2ac-4268-9a48-9fb680958fbe"
+        },
+        "sourceId" : "19",
+        "destinationId" : "9",
+        "description" : "consume"
+      } ]
     } ]
   },
   "documentation" : { },
   "views" : {
-    "systemContextViews" : [ {
-      "key" : "Diagram1",
+    "systemLandscapeViews" : [ {
+      "key" : "SystemLandscape",
       "order" : 1,
-      "softwareSystemId" : "2",
-      "paperSize" : "A5_Landscape",
       "dimensions" : {
-        "width" : 2480,
-        "height" : 1748
+        "width" : 3517,
+        "height" : 3300
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : true
       },
       "enterpriseBoundaryVisible" : true,
       "elements" : [ {
+        "id" : "11",
+        "x" : 1958,
+        "y" : 250
+      }, {
         "id" : "1",
-        "x" : 310,
-        "y" : 95
+        "x" : 974,
+        "y" : 200
       }, {
         "id" : "2",
-        "x" : 1055,
-        "y" : 555
+        "x" : 2916,
+        "y" : 1500
+      }, {
+        "id" : "3",
+        "x" : 949,
+        "y" : 900
+      }, {
+        "id" : "17",
+        "x" : 199,
+        "y" : 1550
+      }, {
+        "id" : "18",
+        "x" : 1287,
+        "y" : 2800
+      }, {
+        "id" : "8",
+        "x" : 1287,
+        "y" : 2200
+      }, {
+        "id" : "19",
+        "x" : 949,
+        "y" : 1550
       } ],
       "relationships" : [ {
-        "id" : "3"
+        "id" : "40",
+        "vertices" : [ {
+          "x" : 1662,
+          "y" : 2650
+        } ]
+      }, {
+        "id" : "28"
+      }, {
+        "id" : "16",
+        "vertices" : [ {
+          "x" : 1778,
+          "y" : 1900
+        } ]
+      }, {
+        "id" : "15",
+        "vertices" : [ {
+          "x" : 1549,
+          "y" : 1500
+        }, {
+          "x" : 1549,
+          "y" : 1900
+        } ]
+      }, {
+        "id" : "26"
+      }, {
+        "id" : "14"
+      }, {
+        "id" : "36",
+        "vertices" : [ {
+          "x" : 897,
+          "y" : 1488
+        } ]
+      }, {
+        "id" : "13",
+        "vertices" : [ {
+          "x" : 2691,
+          "y" : 1900
+        } ]
+      }, {
+        "id" : "24",
+        "vertices" : [ {
+          "x" : 891,
+          "y" : 2153
+        } ]
+      }, {
+        "id" : "34",
+        "vertices" : [ {
+          "x" : 700,
+          "y" : 1261
+        } ]
+      }, {
+        "id" : "22",
+        "vertices" : [ {
+          "x" : 1044,
+          "y" : 1896
+        } ]
+      }, {
+        "id" : "47"
+      }, {
+        "id" : "38",
+        "vertices" : [ {
+          "x" : 1362,
+          "y" : 2650
+        } ]
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "key" : "SystemContext-001",
+      "order" : 2,
+      "softwareSystemId" : "8",
+      "dimensions" : {
+        "width" : 2179,
+        "height" : 2100
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : true
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 900,
+        "y" : 249
+      }, {
+        "id" : "1",
+        "x" : 200,
+        "y" : 199
+      }, {
+        "id" : "2",
+        "x" : 1579,
+        "y" : 899
+      }, {
+        "id" : "3",
+        "x" : 221,
+        "y" : 949
+      }, {
+        "id" : "8",
+        "x" : 900,
+        "y" : 1599
+      } ],
+      "relationships" : [ {
+        "id" : "16"
+      }, {
+        "id" : "15"
+      }, {
+        "id" : "14"
+      }, {
+        "id" : "13"
+      }, {
+        "id" : "47"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Container-001",
+      "order" : 3,
+      "softwareSystemId" : "8",
+      "dimensions" : {
+        "width" : 2350,
+        "height" : 2220
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : true
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 200,
+        "y" : 219
+      }, {
+        "id" : "17",
+        "x" : 575,
+        "y" : 1719
+      }, {
+        "id" : "18",
+        "x" : 1325,
+        "y" : 1719
+      }, {
+        "id" : "19",
+        "x" : 1700,
+        "y" : 219
+      }, {
+        "id" : "9",
+        "x" : 950,
+        "y" : 819
+      }, {
+        "id" : "10",
+        "x" : 950,
+        "y" : 219
+      } ],
+      "relationships" : [ {
+        "id" : "27"
+      }, {
+        "id" : "37",
+        "vertices" : [ {
+          "x" : 1228,
+          "y" : 1561
+        } ]
+      }, {
+        "id" : "23",
+        "vertices" : [ {
+          "x" : 1121,
+          "y" : 1561
+        } ]
+      }, {
+        "id" : "43"
+      }, {
+        "id" : "21",
+        "vertices" : [ {
+          "x" : 853,
+          "y" : 1426
+        } ]
+      }, {
+        "id" : "20"
+      }, {
+        "id" : "39",
+        "vertices" : [ {
+          "x" : 1496,
+          "y" : 1426
+        } ]
       } ]
     } ],
     "configuration" : {
       "branding" : { },
-      "styles" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Database",
+          "background" : "#008000",
+          "color" : "#ffffff",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "LongDesc",
+          "height" : 600
+        }, {
+          "tag" : "Person",
+          "background" : "#0000ff",
+          "color" : "#ffffff",
+          "shape" : "Person"
+        }, {
+          "tag" : "BO",
+          "background" : "#ff0000",
+          "color" : "#ffffff"
+        } ]
+      },
       "terminology" : { },
       "metadataSymbols" : "SquareBrackets",
-      "lastSavedView" : "Diagram1"
+      "lastSavedView" : "Container-001"
     }
   }
 }
