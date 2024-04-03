@@ -90,6 +90,7 @@ services:
       - MONGO_DB=${MONGO_DB}
     volumes:
       - ${DATA_PATH_HOST}/mongo:/data/db
+      - ./mongo/mongod.conf:/etc/mongod.conf
     ports:
       - "${MONGO_HOST_PORT}:27017"
     networks:
