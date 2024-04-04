@@ -53,6 +53,7 @@ services:
     image: docker.elastic.co/kibana/kibana:${KIBANA_VERSION}
     container_name: local-kibana-${KIBANA_VERSION}
     environment:
+      - ELASTICSEARCH_URL=${ES_HOST}
       - ELASTICSEARCH_USERNAME=elastic
       - ELASTICSEARCH_PASSWORD=${ES_PASSWORD}
     ports:
