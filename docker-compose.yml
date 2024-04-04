@@ -28,7 +28,7 @@ services:
         soft: -1
         hard: -1
     volumes:
-      - ${DATA_PATH_HOST}/elasticsearch/data:/usr/share/elasticsearch/data
+      - ${DATA_PATH_HOST}/elasticsearch/data:/usr/lib/elasticsearch/data
     ports:
       - ${ES_PORT}:9200
     networks:
